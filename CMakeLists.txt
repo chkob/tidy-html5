@@ -45,7 +45,7 @@ if (NOT MAN_INSTALL_DIR)
     set(MAN_INSTALL_DIR share/man/man1)
 endif ()
 # Issue #326 - Allow linkage choice of console app tidy
-option( TIDY_CONSOLE_SHARED "Set ON to link with shared(DLL) lib." OFF )
+option( TIDY_CONSOLE_SHARED "Set ON to link with shared(DLL) lib." ON )
 if (TIDY_CONSOLE_SHARED)
     if (NOT BUILD_SHARED_LIB)
         message(FATAL_ERROR "Enable shared build for this tidy linkage!")

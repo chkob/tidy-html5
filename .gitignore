@@ -16,3 +16,4 @@ temp*
 .DS_Store
 .idea
 *.old
+/build_vs2015
