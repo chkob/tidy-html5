@@ -92,6 +92,7 @@
   { TidyAttr_DROPZONE,              xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|HT50|XH50 }, \
   { TidyAttr_HIDDEN,                xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|HT50|XH50 }, \
   { TidyAttr_ID,                    xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|HT50|XH50 }, \
+  { TidyAttr_IS,                    xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|HT50|XH50 }, \
   { TidyAttr_LANG,                  xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|HT50|XH50 }, \
   { TidyAttr_ROLE,                  xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|HT50|XH50 }, \
   { TidyAttr_SPELLCHECK,            xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|HT50|XH50 }, \
@@ -179,6 +180,7 @@ const AttrVersion TY_(W3CAttrsFor_A)[] =
   { TidyAttr_CLASS,                 xxxx|xxxx|H40T|H41T|X10T|H40F|H41F|X10F|H40S|H41S|X10S|XH11|XB10|HT50|XH50 }, /* CORE override */
   { TidyAttr_COORDS,                xxxx|xxxx|H40T|H41T|X10T|H40F|H41F|X10F|H40S|H41S|X10S|XH11|xxxx|xxxx|xxxx },
   { TidyAttr_DIR,                   xxxx|xxxx|H40T|H41T|X10T|H40F|H41F|X10F|H40S|H41S|X10S|XH11|xxxx|HT50|XH50 }, /* CORE override */
+  { TidyAttr_DOWNLOAD,              xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|HT50|XH50 },
   { TidyAttr_HREF,                  HT20|HT32|H40T|H41T|X10T|H40F|H41F|X10F|H40S|H41S|X10S|XH11|XB10|HT50|XH50 },
   { TidyAttr_HREFLANG,              xxxx|xxxx|H40T|H41T|X10T|H40F|H41F|X10F|H40S|H41S|X10S|XH11|XB10|HT50|XH50 },
   { TidyAttr_ID,                    xxxx|xxxx|H40T|H41T|X10T|H40F|H41F|X10F|H40S|H41S|X10S|XH11|XB10|HT50|XH50 }, /* CORE override */
@@ -3086,6 +3088,10 @@ const AttrVersion TY_(W3CAttrsFor_SVG)[] =
   { TidyAttr_WIDTH,                 xxxx|HT32|H40T|H41T|X10T|H40F|H41F|X10F|H40S|H41S|X10S|XH11|XB10|HT50|XH50 },
   { TidyAttr_XML_LANG,              xxxx|xxxx|xxxx|xxxx|X10T|xxxx|xxxx|X10F|xxxx|xxxx|X10S|XH11|xxxx|HT50|XH50 }, /* CORE override */
   { TidyAttr_XMLNS,                 xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|XH11|xxxx|HT50|XH50 }, /* CORE override */
+
+  /* svg xmln:xlink=uri */
+  { TidyAttr_XMLNSXLINK,            xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|XH11|xxxx|HT50|XH50 },
+
   { TidyAttr_X,                     xxxx|xxxx|H40T|H41T|X10T|H40F|H41F|X10F|xxxx|H41S|X10S|XH11|xxxx|HT50|XH50 },
   { TidyAttr_Y,                     xxxx|xxxx|H40T|H41T|X10T|H40F|H41F|X10F|xxxx|H41S|X10S|XH11|xxxx|HT50|XH50 },
   { TidyAttr_VIEWBOX,               xxxx|xxxx|H40T|H41T|X10T|H40F|H41F|X10F|xxxx|H41S|X10S|XH11|xxxx|HT50|XH50 },
